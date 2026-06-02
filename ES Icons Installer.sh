@@ -442,9 +442,9 @@ Main_Menu() {
             BACKUP_STATUS="\Z1No backup\Zn"
         fi
 
-        selection=$(dialog --colors --backtitle "$BACKTITLE" --title " MAIN MENU " \
+        selection=$(dialog --colors --backtitle "$BACKTITLE" --title " MENU " \
             --cancel-label "Exit" \
-            --menu "\nBackup status: $BACKUP_STATUS\n\nSelect an option:" 16 60 4 \
+            --menu "\nBackup status: $BACKUP_STATUS\n\nSelect an option:" 15 50 4 \
             1 "Install ES-dArkOS" \
             2 "Install ES-dArkOS4clone" \
             3 "Restore original ES" \
